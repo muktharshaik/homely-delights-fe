@@ -1,6 +1,7 @@
 {
   "name": "homely-delights-fe",
   "version": "0.1.0",
+  "node": "20.15.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
