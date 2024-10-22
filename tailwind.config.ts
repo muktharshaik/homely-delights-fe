@@ -17,7 +17,10 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		boxShadow: {
+			'neumorphic': "10px 10px 20px rgba(0, 0, 0, 0.15), -10px -10px 20px rgba(255, 255, 255, 0.7)",
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
